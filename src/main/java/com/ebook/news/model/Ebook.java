@@ -22,5 +22,7 @@ public class Ebook {
     private String categoria;
     private String descricao;
     // Link para o arquivo
+
+    @Lob
     private String urlArquivo;
 }
